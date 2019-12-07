@@ -1,19 +1,19 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: CI for Centre Tokens
+Description: CI for FCo2 Tokens
 Parameters:
 
   StackName:
-    Default: ci-centre-tokens
+    Default: ci-fco2-tokens
     Type: String
     Description: Cloudformation stack name
 
   GithubRepoOwner:
-    Default: centrehq
+    Default: cleancoindev
     Type: String
     Description: Github Owner
 
   GithubRepo:
-    Default: centre-tokens
+    Default: FCo2-tokens
     Type: String
     Description: Github repository name
 
