@@ -38,7 +38,7 @@ which is the number of tokens that address is allowed to mint. As a `minter` min
 
 ### Resetting Minting Allowance
 The `minters` will need their allowance reset periodically to allow them to continue 
-minting. When a `minter`'s allowance is low, CENTRE can make another call to `configureMinter` to reset the 
+minting. When a `minter`'s allowance is low, FCC LLC can make another call to `configureMinter` to reset the 
 `mintingAllowance` to a higher value.
 
 ### Removing Minters
@@ -76,6 +76,7 @@ Burning tokens will not increase the mintingAllowance of the address doing the b
 
 ## Blacklisting
 Addresses can be blacklisted. A blacklisted address will be unable to transfer tokens, approve, mint, or burn tokens. 
+
 ### Adding a blacklisted address
 When Sky Solutions or FCC LLC blacklists an address via the `blacklist` method. The specified `account` will be added to the blacklist.
 
