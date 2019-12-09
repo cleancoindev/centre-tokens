@@ -21,7 +21,7 @@
 
 pragma solidity ^0.4.24;
 
-import './../FiatTokenV1.sol';
+import "./../FiatTokenV1.sol";
 
 /**
  * @title FiatTokenV2NewFieldsNewLogicTest
