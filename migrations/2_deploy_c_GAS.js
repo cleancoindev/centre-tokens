@@ -55,7 +55,7 @@ module.exports = function(deployer, network, accounts) {
             tokenProxy = FiatTokenV1.at(tokenProxy.address);
             return tokenProxy.initialize(
                 "c-GAS",
-                c-GAS",
+                "c-GAS",
                 "USD",
                 18,
                 masterMinter,
