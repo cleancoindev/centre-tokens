@@ -1,19 +1,19 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: CI for Centre Tokens
+Description: CI for c-GAS Tokens
 Parameters:
 
   StackName:
-    Default: ci-centre-tokens
+    Default: ci-c-GAS-tokens
     Type: String
     Description: Cloudformation stack name
 
   GithubRepoOwner:
-    Default: centrehq
+    Default: FutureCarbonCredit DAO
     Type: String
     Description: Github Owner
 
   GithubRepo:
-    Default: centre-tokens
+    Default: c-GAS-tokens
     Type: String
     Description: Github repository name
 
