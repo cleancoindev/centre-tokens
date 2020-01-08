@@ -58,8 +58,8 @@ These addresses should be obtained from CENTRE ops, and the keys will be stored 
 
    ```
    initialize(
-          "USD//C",
-          "USDC",
+          "c-GAS",
+          "c-GAS",
           "USD",
           6,
           masterMinterAddress,
