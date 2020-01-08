@@ -3,7 +3,7 @@ pragma solidity ^0.4.24;
 // File: contracts/Ownable.sol
 
 /**
-* Copyright CENTRE SECZ 2018
+* Copyright FutureCarbonCredit DAO/later to be LLC 2020
 *
 * Permission is hereby granted, free of charge, to any person obtaining a copy
 * of this software and associated documentation files (the "Software"), to deal
@@ -89,7 +89,7 @@ contract Ownable {
 // File: contracts/Blacklistable.sol
 
 /**
-* Copyright CENTRE SECZ 2018
+* Copyright FutureCarbonCredit DAO/later to be LLC 2020
 *
 * Permission is hereby granted, free of charge, to any person obtaining a copy
 * of this software and associated documentation files (the "Software"), to deal
@@ -178,7 +178,7 @@ contract Blacklistable is Ownable {
 // File: contracts/Pausable.sol
 
 /**
-* Copyright CENTRE SECZ 2018
+* Copyright FutureCarbonCredit DAO/later to be LLC 2020
 *
 * Permission is hereby granted, free of charge, to any person obtaining a copy
 * of this software and associated documentation files (the "Software"), to deal
@@ -354,7 +354,7 @@ contract ERC20 is ERC20Basic {
 // File: contracts/FiatTokenV1.sol
 
 /**
-* Copyright CENTRE SECZ 2018
+* Copyright FutureCarbonCredit DAO/later to be LLC 2020
 *
 * Permission is hereby granted, free of charge, to any person obtaining a copy
 * of this software and associated documentation files (the "Software"), to deal

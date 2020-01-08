@@ -1,26 +1,26 @@
 // Address of the FiatToken Implementation
-var fiatTokenAddress = "0x0882477e7895bdc5cea7cb1552ed914ab157fe56";
+var fiatTokenAddress = "0x0882477e7895bdc5cea7cb1552ed914ab157fe56";  //TODO:  EDIT ME!  -- main token address of contract
 
 // Address of the FiatToken Proxy
-var fiatTokenProxyAddress = "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48";
+var fiatTokenProxyAddress = "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48";  //TODO:  EDIT ME! -- main proxy contract for token
 
 // role addresses
-var MASTER_MINTER = 0x1500A138523709cE66C8B9aBe678aBc1b6C5A7b7;
-var PAUSER = 0xe8e13e1B6d363C270eF3A5AB466eBAd8326311bb;
-var UPGRADER = 0x69005ff70072c57547dC44ea975d85ea60e5B196;
-var OWNER = 0xa61E278899a8553d93D14eb19bA2791e05069e87;
-var BLACKLISTER = 0x063d13783A0A2Ce65b1Ca00D9e897E6c8B1Ec86B;
+var MASTER_MINTER = 0x1500A138523709cE66C8B9aBe678aBc1b6C5A7b7;  //TODO: CHANGE ME TO PROPER ADDRESS OF MASTER MINTER!
+var PAUSER = 0xe8e13e1B6d363C270eF3A5AB466eBAd8326311bb;  //TODO: EDIT ME!  CHANGE ME TO PROPER PAUSER 
+var UPGRADER = 0x69005ff70072c57547dC44ea975d85ea60e5B196;  //TODO:  EDIT!
+var OWNER = 0xa61E278899a8553d93D14eb19bA2791e05069e87;  //TODO:  EDIT!
+var BLACKLISTER = 0x063d13783A0A2Ce65b1Ca00D9e897E6c8B1Ec86B;  //TODO: EDIT!
 
 // Addresses of known minters - currently fake minters
 // If replacing with real minters need to modify printMinterInfo
 var minters = ["0x0000", "0x0001"];
 
-var NAME = "c-GAS";
-var SYMBOL = "c-GAS";
-var CURRENCY = "USD";
-var DECIMALS = 1 ;
-var TOTALSUPPLY =  1600000000000; //1.6T to collatoralize cGAS bonds, 16 billion of them per year, this is 1 year's worth.
-var PAUSED = false
+var NAME = "c-GAS";  //CHANGE TO F//Co2
+var SYMBOL = "c-GAS";  //CHANGE TO FCO2
+var CURRENCY = "USD";  // DO NOT CHANGE.  Pegs to USD.
+var DECIMALS = 18 ;  //TODO:  Change to 18
+var TOTALSUPPLY =  0; //TODO: 500 billion total supply to start.
+var PAUSED = false  /// DO NOT CHANGE -- this pauses the blockchain.
 
 // Name of current implementation artifact as stored in ./build/contracts/*.json
 var FiatToken = artifacts.require("FiatTokenV1");
@@ -34,7 +34,7 @@ var FiatTokenProxy = artifacts.require("FiatTokenProxy");
 //
 //
 
-var adminSlot = "0x10d6a54a4754c8869d6886b5f5d7fbfa5b4522237ea5c60d11bc4e7a1ff9390b";
+var adminSlot = "0x10d6a54a4754c8869d6886b5f5d7fbfa5b4522237ea5c60d11bc4e7a1ff9390b";  // TODO:  Change me to proper ownership?
 var implSlot = "0x7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c3";
 
 const asyncGetStorageAt = (address, slot) => new Promise((resolve, reject) => {
