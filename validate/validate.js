@@ -15,11 +15,11 @@ var BLACKLISTER = 0x063d13783A0A2Ce65b1Ca00D9e897E6c8B1Ec86B;
 // If replacing with real minters need to modify printMinterInfo
 var minters = ["0x0000", "0x0001"];
 
-var NAME = "USD//C";
-var SYMBOL = "USDC";
+var NAME = "c-GAS";
+var SYMBOL = "c-GAS";
 var CURRENCY = "USD";
-var DECIMALS = 6 ;
-var TOTALSUPPLY =  0;
+var DECIMALS = 1 ;
+var TOTALSUPPLY =  1600000000000; //1.6T to collatoralize cGAS bonds, 16 billion of them per year, this is 1 year's worth.
 var PAUSED = false
 
 // Name of current implementation artifact as stored in ./build/contracts/*.json
