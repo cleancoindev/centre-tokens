@@ -1,7 +1,7 @@
 {
-  "name": "centre-tokens",
+  "name": "c-GAS-tokens",
   "version": "1.0.0",
-  "description": "Fiat and non-fiat tokens part of the CENTRE network.",
+  "description": "Fiat and non-fiat tokens part of the FCC DAO network.",
   "main": "truffle-config.js",
   "directories": {
     "lib": "lib",
@@ -20,9 +20,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/centrehq/centre-tokens/issues"
+    "url": "https://github.com/Dr-Zed/c-GAS-tokens/issues"
   },
-  "homepage": "https://github.com/centrehq/centre-tokens#readme",
+  "homepage": "https://github.com/Dr-Zed/c-GAS-tokens#readme",
   "dependencies": {
     "assert-diff": "^1.2.6",
     "bignumber.js": "6.0.0",
