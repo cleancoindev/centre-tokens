@@ -25,7 +25,7 @@ import './FiatTokenV1.sol';
 
 /**
  * @title FiatTokenV2
- * @dev ERC20 Token backed by fiat reserves
+ * @dev ERC20 Token backed by carbon credit reserves
  */
 contract FiatTokenV2 is FiatTokenV1 {
 }
