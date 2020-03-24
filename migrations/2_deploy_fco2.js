@@ -10,7 +10,7 @@ module.exports = function(deployer, network, accounts) {
         // Change these to the cold storage addresses provided by ops
         // these are the deterministic addresses from ganache, so the private keys are well known
         // and match the values we use in the tests
-        var admin = "0x2f560290fef1b3ada194b6aa9c40aa71f8e95598";  //TODO:  Change me!!!
+        var admin = "0x8c1a0B65F5218649Db12fcbB2fB6Ad246f399bd6";  //TODO:  Change me!!!
         var masterMinter = "0x3e5e9111ae8eb78fe1cc3bb8915d5d461f3ef9a9";  //TODO:  Change me!!!
         var pauser = "0xaca94ef8bd5ffee41947b4585a84bda5a3d3da6e";  //TODO:  Change me!!!
         var blacklister = "0xd03ea8624c8c5987235048901fb614fdca89b117";  //TODO:  Change me!!!
