@@ -2941,12 +2941,12 @@ g@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/g/-/g-2.0.1.tgz#0b5963ebd0ca70e3bc8c6766934a021821c8b857"
 
-ganache-cli@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/ganache-cli/-/ganache-cli-6.1.0.tgz#486c846497204b644166b5f0f74c9b41d02bdc25"
+ganache-cli@6.1.4:
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/ganache-cli/-/ganache-cli-6.1.4.tgz#23a9b90a2d3abb136968193f5bade15d32c520bc"
+  integrity sha512-3plZrwSmuip2z6OsXHMhTc775Phyxqz6K2qiQ7COdXviq4lkX/UYnAta6FOEib0oXTNx4yy/p7YPLjzweh7szg==
   dependencies:
     source-map-support "^0.5.3"
-    webpack-cli "^2.0.9"
 
 gauge@~2.7.3:
   version "2.7.4"
